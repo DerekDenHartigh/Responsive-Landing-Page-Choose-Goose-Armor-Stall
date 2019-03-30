@@ -17,16 +17,17 @@
         <span id="slogan">Choose some protection from my selection</span>
         <nav id="nav-bar">
             <ul id="nav-list">
-                <li class="nav-link-box" id="endorsements"><a class="nav-link" href="#">Customer Endorsements!</a></li> <!--double check that the nav-link/nav-link-box is correct-->
-                <li class="nav-link-box" id="armor-selection"><a class="nav-link" href="#">Armor Assortments!</a></li>
-                <li class="nav-link-box" id="email"><a class="nav-link" href="#">Let me know!</a></li>
-                <li class="nav-link-box" id="endorsements"><a class="nav-link" href="#">I'll wrap it in a bow!</a></li>
+                <li class="nav-link-box" id="endorsements"><a class="nav-link" href="#endorsements-box">Customer Endorsements!</a></li> <!--double check that the nav-link/nav-link-box is correct-->
+                <li class="nav-link-box" id="armor-selection"><a class="nav-link" href="#armor-selection-box">Armor Assortments!</a></li>
+                <li class="nav-link-box" id="email"><a class="nav-link" href="#email-box">Let me know!</a></li>
+                <li class="nav-link-box" id="endorsements"><a class="nav-link" href="https://uploads.neatorama.com/images/posts/389/55/55389/1353794287-0.jpg">I'll wrap it in a bow!</a></li>
             </ul>
         </nav>
     </header>
     <!-- original working video <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HvsjC8lstkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <div id="endorsements-box">
-
+        <img class="armor-image" id="sir-slicer" src="Sir_Slicer.png" alt="sir-slicer">
+        <span>Before I had armor, I was always stubbing toes, scraping my cheeks, and altogether getting laughed at.  Now, I'm totally chk chk!<br>   -Sir Slicer</span>
     </div>
 
     <div id="armor-selection-box">
@@ -61,7 +62,9 @@
     </div>
 
     <div id="email-box">
-        <form id="form" action="https://www.freecodecamp.com/email-submit/"> <!--action tells where to submit the form data-->
+        <form id="form" action="https://www.freecodecamp.com/email-submit/">
+            <span id="message-message">Where to shall I message you?</span>
+            <br><br> <!--action tells where to submit the form data-->
             <input id="email" type="email" placeholder="Finn&Jake@Ooomail.Ooo" required>
             <input id="submit-button" type="submit" value="Very Chk Chk!">
         </form>
