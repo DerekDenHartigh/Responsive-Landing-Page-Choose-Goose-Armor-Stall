@@ -49,3 +49,8 @@ table {
 *{
 	box-sizing: border-box;
 }
+/* for removing default link decoration - should specify new decoration */
+a,a:link,a:visited,a:hover,a:focus,a:active{
+    color: inherit;
+    text-decoration: none;
+}
